@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700| Exo: 100,200,300,400,500,600,700 ');
+
+
+/*--------------------------body */
+
+body {
+    font-family: 'Roboto' 400;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*--------------------------Logo */
+
+.logo-container {
+    background: url("../images/cover2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 200px;
+}
+
+/*-------------------------- End of Logo */
+
+/*--------------------------navbar */
+
+.nav-container {
+    position: absolute;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: white;
+    border: 0;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+
+/*--------------------------End of navbar */
+
+/*-------------------------- Callout container*/
+
+.callout-container {
+    height: 100vh;
+    background: url("../images/monkees.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+
+.content-container {
+    padding-top: 85px;
+    padding-bottom: 35px;
+    max-width: 70%;
+    
+}
+
+/*-------------------------- End of Callout container*/
+
+/*-------------------------- Section container*/
+
+
+.text-center{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+
+
+
+/*-------------------------- Section container*/
+
+/*--------------------------background-image */
+
+.the-cover3 {
+    width: 50%;
+    height: auto;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+/*--------------------------Page headers */
+
+.page-header {
+    margin-bottom: 0px;
+    border-bottom: 0;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.page-header h2 h3 {
+    margin-top: 0;
+}
+
+/*--------------------------End Page headers */
+
+/*--------------------------Footer */
+
+.footer-container {
+    text-align: center;
+    margin-bottom: 40px;
+    max-width: 80%;
+    
+    
+}
+.event-title{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.events i {
+    margin-bottom: 20px;
+    font-size: 25px;
+    line-height: 45px;
+}
+
+.social-links{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
+}
+
+.social-links li a i {
+    width: 45px;
+    height:45px;
+    padding:19px;
+    border-radius:50%;
+    font-size: 16px;
+    line-height: 7px;
+    text-align: right;
+    color: #fafafa;
+    background:#8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #176B90;
+}
+
+
+
+
+
+
+/*--------------------------End of Footer */
+
+/*--------------------------buttons */
+
+.btn--cta{
+    font-weight: bold;
+    border-radius: 23px;
+    width: 250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+
+/*--------------------------contact form */
+
+.center-form{
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 50%;
+    
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color:#17a2b8;
+}
+
+
+
+/*--------------------------End contact form */
+
+
+/*--------------------------References*/
+
+.rating i{
+    color:#3E9A1B;
+}
+
+/*--------------------------End of References*/
+
+/*--------------------------Media*/
+
+.video-player{
+    max-width: 75%;
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+/*--------------------------Media quieries*/
+
